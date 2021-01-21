@@ -24,7 +24,7 @@ function squNumNormal(num) {
 
 for (i = 0; i < 5; i++) {
     startTime = new Date();
-    console.log("Normal", numToSquare, squNumNormal(numToSquare), new Date() - startTime);
+    console.log("Normal", i, numToSquare, squNumNormal(numToSquare), new Date() - startTime);
 }
 console.log("");
 
@@ -47,6 +47,6 @@ function squNumCache(num) {
 
 for (i = 0; i < 5; i++) {
     startTime = new Date();
-    console.log("Cache", numToSquare, squNumCache(numToSquare), new Date() - startTime);
+    console.log("Cache", i, numToSquare, squNumCache(numToSquare), new Date() - startTime);
 }
 console.log("");
